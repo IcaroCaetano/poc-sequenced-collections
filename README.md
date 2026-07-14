@@ -4,22 +4,22 @@
 
 ## The Goal of POC
 
-- Show
+Show
 
-SequencedCollection
-SequencedSet
-SequencedMap
-getFirst()
-getLast()
-addFirst()
-addLast()
-removeFirst()
-removeLast()
-reversed()
-firstEntry()
-lastEntry()
-pollFirstEntry()
-pollLastEntry()
+- SequencedCollection;
+- SequencedSet;
+- SequencedMap;
+- getFirst();
+- getLast();
+- addFirst();
+- addLast();
+- removeFirst();
+- removeLast();
+- reversed();
+- firstEntry();
+- lastEntry();
+- pollFirstEntry();
+- pollLastEntry();
 
 ````plantuml
 src
@@ -39,16 +39,34 @@ src
                    Employee.java
 ````
 
-
-## Output 
-
 ### ListExample
 
 - SequencedCollection
+- getFirst
+- getLast
+- addFirst
+- addLast
+- removeFirst
+- removeLast
+
+#### Output
 
 ````plantuml
 Joao
 Pedro
 [Carlos, Joao, Maria, Pedro, Jose]
 [Joao, Maria, Pedro]
+````
+
+### SetExample
+
+SequencedSet is a subinterface of SequencedCollection and Set. It standardizes the access, 
+addition, and removal of elements in collections that have a defined order but do not allow 
+duplicates.
+
+#### Output
+
+````plantuml
+10
+40
 ````
