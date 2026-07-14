@@ -64,6 +64,10 @@ SequencedSet is a subinterface of SequencedCollection and Set. It standardizes t
 addition, and removal of elements in collections that have a defined order but do not allow 
 duplicates.
 
+- SequencedSet
+- getFirst
+- getLast
+
 #### Output
 
 ````plantuml
