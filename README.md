@@ -1,0 +1,54 @@
+# POC Sequence Collections
+
+## Structure
+
+## The Goal of POC
+
+- Show
+
+SequencedCollection
+SequencedSet
+SequencedMap
+getFirst()
+getLast()
+addFirst()
+addLast()
+removeFirst()
+removeLast()
+reversed()
+firstEntry()
+lastEntry()
+pollFirstEntry()
+pollLastEntry()
+
+````plantuml
+src
+└── main
+    └── java
+        └── com.project.poc_sequenced_collections
+            │
+            ├── Main.java
+            ├── examples
+            │      ListExample.java
+            │      SetExample.java
+            │      MapExample.java
+            │      QueueExample.java
+            │      ReverseExample.java
+            │
+            └── dto
+                   Employee.java
+````
+
+
+## Output 
+
+### ListExample
+
+- SequencedCollection
+
+````plantuml
+Joao
+Pedro
+[Carlos, Joao, Maria, Pedro, Jose]
+[Joao, Maria, Pedro]
+````

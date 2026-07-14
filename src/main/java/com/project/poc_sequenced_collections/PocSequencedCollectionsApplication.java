@@ -1,13 +1,13 @@
 package com.project.poc_sequenced_collections;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import com.project.poc_sequenced_collections.types.ListExample;
 
-@SpringBootApplication
+
 public class PocSequencedCollectionsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PocSequencedCollectionsApplication.class, args);
+
+		ListExample.execute();
 	}
 
 }
