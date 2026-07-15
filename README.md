@@ -77,7 +77,20 @@ duplicates.
 
 ### SequencedMap
 
+#### Output
+
 ````plantuml
 1=Ana
 4=Maria
+````
+
+### ReversedExample
+
+#### Output
+
+````plantuml
+Viena
+Londres
+Roma
+Paris
 ````
