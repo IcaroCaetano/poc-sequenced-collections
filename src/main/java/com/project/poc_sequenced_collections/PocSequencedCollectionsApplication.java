@@ -1,6 +1,7 @@
 package com.project.poc_sequenced_collections;
 
 import com.project.poc_sequenced_collections.types.ListExample;
+import com.project.poc_sequenced_collections.types.MapExample;
 import com.project.poc_sequenced_collections.types.SetExample;
 
 
@@ -11,6 +12,9 @@ public class PocSequencedCollectionsApplication {
 		ListExample.execute();
 		System.out.println();
 		SetExample.execute();
+		System.out.println();
+		MapExample.execute();
+
 	}
 
 }

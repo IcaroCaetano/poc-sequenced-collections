@@ -74,3 +74,10 @@ duplicates.
 10
 40
 ````
+
+### SequencedMap
+
+````plantuml
+1=Ana
+4=Maria
+````
