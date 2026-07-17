@@ -95,6 +95,7 @@ Roma
 Paris
 ````
 
+### NavigationExample
 
 - pollFirstEntry
 - pollLastEntry
