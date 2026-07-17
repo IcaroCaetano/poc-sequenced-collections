@@ -94,3 +94,7 @@ Londres
 Roma
 Paris
 ````
+
+
+- pollFirstEntry
+- pollLastEntry
