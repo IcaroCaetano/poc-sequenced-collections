@@ -1,5 +1,7 @@
 # POC Sequence Collections
 
+Sequenced Collections do not introduce a new collection type. Instead, they create a unified API for collections that possess an encounter order, eliminating differences between implementations and making code more expressive. Rather than relying on indices, iterators, or implementation-specific methods, it is now possible to consistently work with the first and last elements, traverse in reverse order, and manipulate the ends of ordered collections using the same interface. This improves readability, reduces boilerplate code, and facilitates swapping implementations without altering application logic.
+
 ## Structure
 
 ## The Goal of POC
