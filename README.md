@@ -99,5 +99,3 @@ Paris
 
 - pollFirstEntry
 - pollLastEntry
-
-Sequenced Collections não introduzem um novo tipo de coleção. Elas criam uma API unificada para coleções que possuem ordem de encontro (encounter order), eliminando diferenças entre implementações e tornando o código mais expressivo. Em vez de depender de índices, iteradores ou métodos específicos de cada implementação, agora é possível trabalhar de forma consistente com o primeiro e o último elemento, navegar em ordem inversa e manipular as extremidades de coleções ordenadas usando a mesma interface. Isso melhora a legibilidade, reduz código repetitivo e facilita a troca de implementações sem alterar a lógica da aplicação
